@@ -1,0 +1,19 @@
+body {
+  background-color: #262626;
+}
+form {
+  background-color: #363636;
+  margin: 5em auto 1em auto;
+  padding: 1em;
+  border: 1px solid;
+  width: 20em;
+}
+p {
+  color: rgb(255, 255, 255);
+}
+label {
+  color: rgb(255, 255, 255);
+}
+table {
+  color: rgb(255, 255, 255);
+}

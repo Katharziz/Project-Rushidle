@@ -1,0 +1,171 @@
+/*------------------BODY---------------------*/
+body {
+  background-color: #252525;
+}
+/*------------------MENU---------------------*/
+.menu {
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+}
+.menu_ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+}
+
+.menu_li {
+  float: left;
+  cursor: pointer;
+  text
+}
+.menu_li .menu_a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.menu_li .menu_a:hover {
+  background-color: #111111;
+}
+.menu_li .menu_a.active {
+  background-color: #414141;
+  color: white;
+}
+/*------------------SIDEBAR---------------------*/
+.sidebar {
+  margin-top: 70px;
+  height:90%;
+  width: 19.5%;
+  margin-left: 0.5%;
+  border-right-style: solid;
+  border-right-color: black;
+  border-right-width: 2px;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  display: block;
+  background-color: #333333;
+}
+.sidebar_ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  display: block;
+}
+.sidebar_li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.side_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25%;
+  border-style: solid;
+  border-color: black;
+}
+img:hover {
+  opacity: 0.8;
+  background: #000;
+  cursor: pointer;
+}
+.sidebar p {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+/*------------------CONTENT---------------------*/
+.game {
+  margin-top: 70px;
+  margin-left: 20%;
+  height:90%;
+  width: 79.5%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  display: block;
+  background-color: #333333;
+  list-style-type: none;
+  padding: 0;
+}
+.content {
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 4px;
+  overflow-x: hidden;
+  display: block;
+  background-color: #333333;
+  position: absolute;
+  height: 88%;
+  width: 100%;
+  z-index: 1;
+}
+.content h2 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.content p {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  margin-left: 5px;
+}
+.content table {
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+}
+.content tr {
+  color: rgb(255, 255, 255);
+  border: 2px, solid, black;
+}
+.content td {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border: 2px, solid, black;
+  letter-spacing: 1px;
+  padding: 4px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.content form {
+  position: absolute;
+    bottom: 0;
+}
+/*------------------CONSOLE---------------------*/
+.console {
+  overflow-x: hidden;
+  display: block;
+  background-color: #818181;
+  overflow: auto;
+  position: absolute;
+  bottom: 0;
+  height: 12%;
+  width: 100%;
+  z-index: 0;
+}
+.console p {
+  padding-left: 10px;
+}
+/*------------------HEALTH---------------------*/
+#hp {
+    color: red;
+}
